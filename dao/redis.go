@@ -15,8 +15,7 @@ var (
 func InitRedis() (err error) {
 	Redis = redis.NewClient(&redis.Options{
 		Addr:     "127.0.0.1:6379",
-		Password: "020804", // no password set
-		//Password:"123456",
+		Password: 
 		DB:       0,        // use default DB
 	})
 	_, err = Redis.Ping().Result()
