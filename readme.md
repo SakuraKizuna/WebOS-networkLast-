@@ -1,5 +1,5 @@
 
-本项目为Drop_os操作系统的后端
+本项目为net work cloud的后端
 
 运行项目前需要修改mysql 和 redis的配置
 dao
